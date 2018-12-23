@@ -1,0 +1,371 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 6em;
+  font-family: 'trumpit';
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+
+/********** Site Wide Classes **********/
+
+.header-content {
+  text-align: center;
+  color: white;
+}
+
+
+/********** Navbar **********/
+
+.navbar-light {
+  background: rgb(53, 130, 255)!important;
+}
+
+.navbar-light a {
+  color: white!important;
+}
+
+.navbar-light a:hover {
+  color: silver!important;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+
+/********** Home **********/
+
+.home {
+  color: white;
+  overflow-x: hidden;
+}
+
+.home .header {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .header-content {
+  padding-top: 25%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.home hr {
+  width: 400px;
+
+}
+
+.header-btn {
+  background: rgb(53, 130, 255);
+}
+
+.header-btn:hover {
+  background: rgb(141, 73, 211);
+}
+
+
+/********** Animation **********/
+
+#slider {
+  height: 100%;
+  overflow: hidden;
+}
+
+#slider img {
+  width: 20%;
+  float: left;
+}
+
+#slider {
+  position: absolute;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+
+/********** Footer **********/
+
+.footer {
+  background: rgb(141, 73, 211);
+  padding: 30px 0;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: .5rem;
+}
+
+.footer hr {
+  width: auto;
+}
+
+.footer-icon {
+  padding-right: 5px;
+  color: white;
+}
+
+.footer-icon:hover {
+  color: gray;
+}
+
+.footer .form-field {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.footer textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#copyright {
+  text-align: center;
+}
+
+
+/********** Virtual Reality **********/
+
+.vr .header {
+  height: 70%;
+  background: url('../img/vr.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.vr .header-content {
+  padding-top: 20%;
+}
+
+.vr .header h4 {
+  padding-bottom: 20px;
+}
+
+.vr #rooms {
+  background: powderblue;
+}
+
+.vr #rooms-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vr #rooms .container {
+  padding: 100px 0;
+}
+
+.vr #rooms .container img {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.vr #pricing {
+  background: silver;
+  text-align: center;
+}
+
+.vr #pricing .container {
+  padding: 100px 0;
+  align-items: center;
+}
+
+.vr #pricing h3 {
+  padding-bottom: 30px;
+}
+
+.vr #pricing .price {
+  color: white;
+  padding: 100px 0;
+  background: url("../img/price.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.vr #games {
+  background: skyblue;
+}
+
+.vr #games .container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.vr #games p {
+  padding-bottom: 30px;
+}
+
+.vr .game {
+  margin: 30px 15px;
+}
+
+.vr .game-img img {
+  width: 100%;
+}
+
+.vr .game-name {
+  padding-top: 10px;
+}
+
+.vr #booking .container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.vr #booking h3 {
+  padding-bottom: 20px;
+}
+
+
+/********** Froyo **********/
+
+.froyo .header {
+  height: 70%;
+  background: url('../img/froyo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.froyo .header-content {
+  padding-top: 20%;
+}
+
+.froyo #flavors {
+  background: thistle;
+  text-align: center;
+}
+
+.froyo #flavors .container {
+  padding: 100px 0;
+}
+
+.froyo #flavors h3 {
+  padding-bottom: 30px;
+}
+
+.froyo #flavors img {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.froyo #toppings {
+  background: powderblue;
+  text-align: center;
+}
+
+.froyo #toppings .container {
+  padding: 100px 0;
+  align-items: center;
+}
+
+.froyo #toppings h3 {
+  padding-bottom: 30px;
+}
+
+.froyo #toppings ul {
+  padding: 0;
+  list-style: none;
+  font-size: 1.1em;
+}
+
+.froyo #toppings hr {
+  width: 75%;
+}
+
+
+/********** Contact **********/
+#contact-header {
+  background: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#contact-body {
+  background: powderblue;
+  padding: 100px 0;
+}
+
+#contact-body .form-field {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#contact-body textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#contact-body p {
+  padding-bottom: 10px;
+}
+
+#contact-body hr {
+  width: 40%;
+  text-align: left;
+  margin-left: 0;
+}
+
+#contact-body #email-form {
+  padding-left: 10%;
+}
+
+
+/********** Submit **********/
+
+#submit-header {
+  height: 80%;
+}
+
+#submit-header-content {
+  color: black;
+  text-align: center;
+  padding-top: 20%;
+}
+
+#submit-header p {
+  padding-bottom: 20px;
+}
