@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Cyber Spoons</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body class="home">
+<head>
+  <meta charset="utf-8">
+  <title>Cyber Spoons</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131725019-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131725019-1');
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <meta property='og:image' content='http://www.cyberspoons.com/img/cyber_spoons_meta.png'/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="./img/navbar_logo_white.png" alt="Cyber Spoons Logo"></a>
+        <a class="navbar-brand" href="./"><img src="./img/navbar_logo_white.png" alt="Cyber Spoons Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="vr.html">Virtual Reality</a>
+              <a class="nav-link" href="vr">Virtual Reality</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="froyo.html">Frozen Yogurt</a>
+              <a class="nav-link" href="froyo">Frozen Yogurt</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://squareup.com/gift/8FRECP5RV20TV/order" target="_blank">Gift Cards</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -38,24 +51,17 @@
     </nav>
 
     <div class="header">
-      <div id="slider">
-        <img src="./img/pic.jpg">
-        <img src="./img/vr.jpg">
-        <img src="./img/froyo.jpg">
-        <img src="./img/game.jpg">
-        <img src="./img/pic.jpg">
-      </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="header-content">
               <h1>Cyber Spoons</h1>
-              <h3>A VR Arcade & Froyo Shop</h3>
+              <h3>A Virtual Reality Arcade & Frozen Yogurt Shop</h3>
               <hr>
-              <h2>Opening Fall 2018</h2>
+              <h2>NOW OPEN</h2>
               <hr>
-              <a class="btn btn-info btn-lg header-btn" href="vr.html">Virtual Reality</a>
-              <a class="btn btn-info btn-lg header-btn" href="froyo.html">Frozen Yogurt</a>
+              <a class="btn btn-info btn-lg header-btn" href="vr">Virtual Reality</a>
+              <a class="btn btn-info btn-lg header-btn" href="froyo">Frozen Yogurt</a>
             </div>
           </div>
         </div>
@@ -67,16 +73,17 @@
         <div class="row">
           <div class="col-lg-3">
             <h3>Cyber Spoons</h3>
-            <p>389 Tenney Mountain Hwy #3<br>Plymouth, NH 03264</p>
+            <p>91 Main St<br>Plymouth, NH 03264</p>
             <br>
-            <p>Cyber Spoons is New Hampshire's only virtual reality arcade and Plymouth's only frozen yogurt shop.</p>
+            <p>Cyber Spoons is Plymouth's only virtual reality arcade and frozen yogurt shop.</p>
           </div>
           <div class="col-lg-3">
             <h4>Visit Us</h4>
             <hr>
             <h5>In Person</h5>
-            <p>Monday - Friday: 1pm - 9pm</p>
-            <p>Saturday & Sunday: 11am - 9pm</p>
+            <p>Monday: Closed</p>
+            <p>Tuesday - Thursday: 2pm - 9pm</p>
+            <p>Friday - Sunday: 11am - 9pm</p>
             <br>
             <h5>Online</h5>
             <p>@CyberSpoonsNH</p>

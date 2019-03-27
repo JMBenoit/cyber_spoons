@@ -66,12 +66,13 @@ p {
 
 .home .header {
   height: 100%;
+  background: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .home .header-content {
-  padding-top: 25%;
+  padding-top: 15%;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
               0px 8px 13px rgba(0,0,0,0.1),
               0px 18px 23px rgba(0,0,0,0.1);
@@ -88,41 +89,6 @@ p {
 
 .header-btn:hover {
   background: rgb(141, 73, 211);
-}
-
-
-/********** Animation **********/
-
-#slider {
-  height: 100%;
-  overflow: hidden;
-}
-
-#slider img {
-  width: 20%;
-  float: left;
-}
-
-#slider {
-  position: absolute;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite;
-}
-
-@keyframes slidy {
-  0% { left: 0%; }
-  20% { left: 0%; }
-  25% { left: -100%; }
-  45% { left: -100%; }
-  50% { left: -200%; }
-  70% { left: -200%; }
-  75% { left: -300%; }
-  95% { left: -300%; }
-  100% { left: -400%; }
 }
 
 
@@ -176,7 +142,7 @@ p {
 }
 
 .vr .header-content {
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .vr .header h4 {
@@ -199,7 +165,7 @@ p {
 }
 
 .vr #rooms .container img {
-  width: 60%;
+  width: 80%;
   display: flex;
   margin: 0 auto;
 }
@@ -271,7 +237,7 @@ p {
 }
 
 .froyo .header-content {
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .froyo #flavors {
@@ -290,6 +256,10 @@ p {
 .froyo #flavors img {
   width: 100%;
   margin: 30px 0;
+}
+
+.froyo #flavors h4 {
+  padding-bottom: 10px;
 }
 
 .froyo #toppings {
