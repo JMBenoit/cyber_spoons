@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   <meta property='og:image' content='http://www.cyberspoons.com/img/cyber_spoons_meta.png'/>
+  <meta name="description" content="Many different flavors of frozen yogurt and over 35 different toppings to choose from. Paid by weight. Check out the available flavors and toppings on the website.">
   <link rel="stylesheet" href="css/style.css">
 </head>
   <body class="froyo">
@@ -41,6 +42,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://squareup.com/gift/8FRECP5RV20TV/order" target="_blank">Gift Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="loyalty">Loyalty Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact">Contact</a>
@@ -70,12 +74,12 @@
             <h3>Current Flavors</h3>
           </div>
           <div class="col-lg-4">
-            <img src="./img/flavor_icons/chocolate.png" alt="Dreamy Dark Chocolate">
-            <h4>Dreamy Dark Chocolate</h4>
+            <img src="./img/flavor_icons/chocolate.png" alt="Triple Chocolate">
+            <h4>Triple Chocolate</h4>
           </div>
           <div class="col-lg-4">
-            <img src="./img/flavor_icons/chocolate_cookies_twist.png" alt="Dreamy Dark Chocolate & Cookies 'N Cream Twist">
-            <h4>Dreamy Dark Chocolate & Cookies 'N Cream Twist</h4>
+            <img src="./img/flavor_icons/chocolate_cookies_twist.png" alt="Triple Chocolate & Cookies 'N Cream Twist">
+            <h4>Triple Chocolate & Cookies 'N Cream Twist</h4>
           </div>
           <div class="col-lg-4">
             <img src="./img/flavor_icons/cookies_n_cream.png" alt="Cookies 'N Cream">
@@ -94,16 +98,16 @@
             <h4>Valencia Orange Sorbet</h4>
           </div>
           <div class="col-lg-4">
-            <img src="./img/flavor_icons/carmel_pretzel.png" alt="Sea Salt Carmel Pretzel">
-            <h4>Sea Salt Carmel Pretzel</h4>
+            <img src="./img/flavor_icons/cheesecake.png" alt="Cheesecake">
+            <h4>Cheesecake</h4>
           </div>
           <div class="col-lg-4">
-            <img src="./img/flavor_icons/cake_pretzel_twist.png" alt="Sea Salt Carmel Pretzel & Birthday Cake Twist">
-            <h4>Sea Salt Carmel Pretzel & Birthday Cake Twist</h4>
+            <img src="./img/flavor_icons/cheesecake_pretzel_twist.png" alt="Cheesecake & Sea Salt Caramel Pretzel Twist">
+            <h4>Cheesecake & Sea Salt Caramel Pretzel Twist</h4>
           </div>
           <div class="col-lg-4">
-            <img src="./img/flavor_icons/birthday_cake.png" alt="Birthday Cake">
-            <h4>Birthday Cake</h4>
+            <img src="./img/flavor_icons/caramel_pretzel.png" alt="Sea Salt Caramel Pretzel">
+            <h4>Sea Salt Caramel Pretzel</h4>
           </div>
         </div>
       </div>
@@ -123,13 +127,12 @@
               <li>Cherry Boba</li>
               <li>Blueberry Boba</li>
               <li>Mango Boba</li>
-              <li>Blueberries</li>
-              <li>Banana</li>
-              <li>Mango</li>
+              <li>Fresh Cut Fruit</li>
               <li>Cheesecake Pieces</li>
               <li>Cookie Dough Bites</li>
               <li>Cherries</li>
               <li>Strawberry Topping</li>
+              <li>Whipped Cream</li>
             </ul>
           </div>
           <div class="col-lg-6">
@@ -148,7 +151,7 @@
                   <li>Nestle Crunch</li>
                   <li>Twinkle Nut Crunch</li>
                   <li>Peanut Butter Cups</li>
-                  <li>Yogurt Raisoins</li>
+                  <li>Yogurt Raisins</li>
                   <li>Andes Candies</li>
                   <li>Chocolate Sunflower Seeds</li>
                   <li>Twix</li>
@@ -178,6 +181,7 @@
             <hr>
             <ul>
               <li>Hot Fudge</li>
+              <li>Butterscotch</li>
               <li>Marshmallow</li>
               <li>Peanut Butter</li>
             </ul>

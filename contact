@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   <meta property='og:image' content='http://www.cyberspoons.com/img/cyber_spoons_meta.png'/>
+  <meta name="description" content="Store information and contact form.">
   <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
@@ -41,6 +42,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://squareup.com/gift/8FRECP5RV20TV/order" target="_blank">Gift Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="loyalty">Loyalty Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact">Contact</a>
@@ -71,7 +75,10 @@
               <p>Phone: 603-238-9060</p>
               <h3>Address:</h3>
               <hr>
+              <h5>Physical:</h5>
               <p>91 Main St<br>Plymouth, NH 03264</p>
+              <h5>Mailing:</h5>
+              <p>P.O. Box 975<br>Plymouth, NH 03264</p>
               <h3>Hours:</h3>
               <hr>
               <p>Monday: Closed <br>Tuesday - Thursday: 2pm - 9pm <br>Friday - Sunday: 11am - 9pm</p>

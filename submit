@@ -43,6 +43,9 @@
               <a class="nav-link" href="https://squareup.com/gift/8FRECP5RV20TV/order" target="_blank">Gift Cards</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="loyalty">Loyalty Program</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="contact">Contact</a>
             </li>
           </ul>
@@ -57,8 +60,8 @@
             <div id="submit-header-content">
               <h2>Thank you</h2>
               <p>We have recieved your email and we will get back to you as soon as possible.</p>
-              <a class="btn btn-info btn-lg header-btn" href="vr.html">Virtual Reality</a>
-              <a class="btn btn-info btn-lg header-btn" href="froyo.html">Frozen Yogurt</a>
+              <a class="btn btn-info btn-lg header-btn" href="vr">Virtual Reality</a>
+              <a class="btn btn-info btn-lg header-btn" href="froyo">Frozen Yogurt</a>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 <?php ob_start();
 
   if ("null" !== ($_POST['submit'])) {
-    $to = "support@cyberspoons.com";
+    $to = "justin@cyberspoons.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $header = $name.'<'.$email.'>';
@@ -12,7 +12,7 @@
 
     mail($to, $subject, $message, $headers);
 
-    header("location: ../submit.html");
+    header("location: ../submit");
   }
 
 ?>

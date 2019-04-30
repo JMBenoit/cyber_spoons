@@ -1,6 +1,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 hr {
@@ -61,7 +62,6 @@ p {
 
 .home {
   color: white;
-  overflow-x: hidden;
 }
 
 .home .header {
@@ -287,6 +287,49 @@ p {
 }
 
 
+
+/********** Loyalty **********/
+#loyalty-header {
+  background: thistle;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#loyalty-header h4 {
+  padding-bottom: 20px;
+}
+
+#rewards h3,p {
+  padding-bottom: 30px;
+}
+
+#rewards .container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#rewards .container img {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+#check-status {
+  background: lightcyan;
+}
+
+#check-status .container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#check-status h3 {
+  padding-bottom: 20px;
+}
+
+
+
 /********** Contact **********/
 #contact-header {
   background: white;
@@ -324,6 +367,7 @@ p {
 }
 
 
+
 /********** Submit **********/
 
 #submit-header {
@@ -333,9 +377,128 @@ p {
 #submit-header-content {
   color: black;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 #submit-header p {
   padding-bottom: 20px;
+}
+
+
+/********** Mobile **********/
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+
+  /********** Home **********/
+  .header .header-content {
+    margin-top: 10%;
+  }
+
+  .home .header-content hr {
+    width: 80%;
+  }
+
+
+  /********** Footer **********/
+  .footer {
+    width: 100%;
+  }
+
+  .footer .container {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .footer .col-lg-3 {
+    margin-bottom: 30px;
+  }
+
+
+  /********** VR **********/
+  .vr #rooms-text {
+    padding: 30px 20px 0 20px;
+  }
+
+  .vr #pricing .price {
+    width: 100%;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .vr #games .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  /********** Froyo **********/
+
+  .froyo #flavors .col-lg-4 {
+    padding: 0 50px;
+  }
+
+  .froyo #toppings h4 {
+    padding-top: 20px;
+  }
+
+
+  /********** Loyalty **********/
+  .loyalty .col-lg-4 {
+    margin-bottom: 50px;
+  }
+
+  .loyalty .col-lg-4:last-of-type {
+    margin-bottom: 0;
+  }
+
+  #check-status {
+    padding: 0 15px;
+  }
+
+
+  /********** Contact **********/
+  #contact-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  #contact-body #email-form {
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 0;
+  }
+
+  #contact-body .form-field {
+    width: 100%;
+  }
+
+  #contact-body textarea {
+    width: 100%;
+  }
+
+  #contact-body .btn {
+    display: flex;
+    margin: 0 auto;
+  }
+
+
 }

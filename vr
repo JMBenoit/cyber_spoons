@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   <meta property='og:image' content='http://www.cyberspoons.com/img/cyber_spoons_meta.png'/>
+  <meta name="description" content="Over 35 different games to choose from in our virtual reality arcade. Paid by time. Check out the available games on the website.">
   <link rel="stylesheet" href="css/style.css">
 </head>
   <body class="vr">
@@ -43,6 +44,9 @@
               <a class="nav-link" href="https://squareup.com/gift/8FRECP5RV20TV/order" target="_blank">Gift Cards</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="loyalty">Loyalty Program</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="contact">Contact</a>
             </li>
           </ul>
@@ -58,6 +62,7 @@
               <h2>A brand new take on the classic arcade</h4>
               <h4>Step into a new world where anything is possible and experience the future of gaming</h3>
               <a class="btn btn-info btn-lg header-btn" href="https://customer.springboardvr.com/reserve/c8842ff0-4ab1-11e9-a22b-2dc6154e83a6" target="_blank">Book Now</a>
+              <a class="btn btn-info btn-lg header-btn" href="https://forms.gle/Vh7XMjkh1qPEsNdt6" target="_blank">Sign Now</a>
             </div>
           </div>
         </div>
@@ -68,7 +73,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="./img/booth.jpg" alt="VR Booth">
+            <img src="./img/vr_booth.jpg" alt="VR Booth">
           </div>
           <div class="col-lg-6">
             <div id="rooms-text">
@@ -124,6 +129,16 @@
           <div class="col-lg-3">
             <div class="game">
               <div class="game-img">
+                <img src="./img/games/2md_football.jpeg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>2MD VR Football</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
                 <img src="./img/games/affected.jpeg" alt="Game image">
               </div>
               <div class="game-name">
@@ -138,6 +153,16 @@
               </div>
               <div class="game-name">
                 <h4>Arizona Sunshine</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
+                <img src="./img/games/beat_saber.jpeg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Beat Saber</h4>
               </div>
             </div>
           </div>
@@ -214,10 +239,30 @@
           <div class="col-lg-3">
             <div class="game">
               <div class="game-img">
+                <img src="./img/games/emily.jpeg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Emily Wants To Play</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
                 <img src="./img/games/epic_roller_coasters.jpg" alt="Game image">
               </div>
               <div class="game-name">
                 <h4>Epic Roller Coasters</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
+                <img src="./img/games/escape_bloody_mary.jpeg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Escape Bloody Mary</h4>
               </div>
             </div>
           </div>
@@ -238,6 +283,16 @@
               </div>
               <div class="game-name">
                 <h4>EscapeVR: Trapped Above The Clouds</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
+                <img src="./img/games/everyday_baseball.jpg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Everyday Baseball</h4>
               </div>
             </div>
           </div>
@@ -284,6 +339,16 @@
           <div class="col-lg-3">
             <div class="game">
               <div class="game-img">
+                <img src="./img/games/infinite_art.jpg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Infinite Art Museum</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
                 <img src="./img/games/island_359.jpeg" alt="Game image">
               </div>
               <div class="game-name">
@@ -298,6 +363,26 @@
               </div>
               <div class="game-name">
                 <h4>Job Simulator</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
+                <img src="./img/games/paper_fire.jpg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Paper Fire Rookie</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
+                <img src="./img/games/pierhead_arcade.jpg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>The Pierhead Arcade</h4>
               </div>
             </div>
           </div>
@@ -354,6 +439,16 @@
           <div class="col-lg-3">
             <div class="game">
               <div class="game-img">
+                <img src="./img/games/spare_teeth.jpg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Spare Teeth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
                 <img src="./img/games/superhot.jpeg" alt="Game image">
               </div>
               <div class="game-name">
@@ -368,6 +463,16 @@
               </div>
               <div class="game-name">
                 <h4>Universe Sandbox</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="game">
+              <div class="game-img">
+                <img src="./img/games/virtual_arctic.jpg" alt="Game image">
+              </div>
+              <div class="game-name">
+                <h4>Virtual Arctic Exploration</h4>
               </div>
             </div>
           </div>
@@ -399,9 +504,15 @@
     <div id="booking">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-6">
             <h3>Book your booth</h3>
+            <p>Reserve your day and time online to skip the wait in store. Pay ahead online or pay in store when you arrive.</p>
             <a class="btn btn-info btn-lg header-btn" href="https://customer.springboardvr.com/reserve/c8842ff0-4ab1-11e9-a22b-2dc6154e83a6" target="_blank">Book Now</a>
+          </div>
+          <div class="col-lg-6">
+            <h3>Sign the waiver</h3>
+            <p>All customers  playing in the Virtual Reality Arcade must have a signed waiver on file. If you have already signed, you do not need to sign again. </p>
+            <a class="btn btn-info btn-lg header-btn" href="https://forms.gle/Vh7XMjkh1qPEsNdt6" target="_blank">Sign Now</a>
           </div>
         </div>
       </div>
