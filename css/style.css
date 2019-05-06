@@ -100,10 +100,6 @@ p {
   color: white;
 }
 
-.footer p {
-  margin-bottom: .5rem;
-}
-
 .footer hr {
   width: auto;
 }
@@ -300,7 +296,7 @@ p {
   padding-bottom: 20px;
 }
 
-#rewards h3,p {
+#rewards h3, #rewards p {
   padding-bottom: 30px;
 }
 
